@@ -16,16 +16,18 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image2]: ./test_images_out/gray_solidWhiteCurve.jpg "Grayscale"
 ---
 
 ### Reflection
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 6 steps. First, I converted the images to grayscale, 
-[image1]: ./test_images_out/gray_solidWhiteCurve.jpg  "Grayscale"
-then I .... 
+My pipeline consisted of 6 steps. 
+First, I converted the images to grayscale, 
+![alt text][image2]
+Second, I blurred the image.
+Third, I applied canny edge with low thresh:70 high thresh:100
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 

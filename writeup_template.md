@@ -16,7 +16,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./test_images_out/gray_solidWhiteCurve.jpg "Grayscale2"
 ---
 
 ### Reflection
@@ -25,7 +24,7 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 6 steps. 
 1. I converted the images to grayscale, 
-![alt text][image2]
+![alt text][image1]
 2. I blurred the image.
 3. I applied canny edge with low thresh:70 high thresh:100
 4. define a polygon for point of interest

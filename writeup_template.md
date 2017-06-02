@@ -20,6 +20,8 @@ The goals / steps of this project are the following:
 
 [image2]: ./test_images_out/edges_solidWhiteCurve.jpg "Grayscale"
 
+[image3]: ./test_images_out/med_solidWhiteCurve.jpg "Grayscale"
+
 ---
 
 ### Reflection
@@ -37,6 +39,9 @@ My pipeline consisted of 6 steps.
 ![alt text][image2]
 
 4. define a polygon for point of interest
+
+![alt text][image3]
+
 5. make a Hough transform with threshold : 10, min_line_length = 100, max_line_gap = 200
 6. apply line images from step 5 to original image
 

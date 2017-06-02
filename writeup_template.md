@@ -22,9 +22,9 @@ The goals / steps of this project are the following:
 
 [image3]: ./test_images_out/med_solidWhiteCurve.jpg "Grayscale"
 
-[image4]: ./ftest_images_out/line_solidWhiteCurve.jpg "Grayscale"
+[image4]: ./test_images_out/line_solidWhiteCurve.jpg "Grayscale"
 
-[image5]: ./ftest_images_out/final_solidWhiteCurve.jpg "Grayscale"
+[image5]: ./test_images_out/final_solidWhiteCurve.jpg "Grayscale"
 
 ---
 
@@ -62,13 +62,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming would be related parameters for hough transformation. sometimes the left and right lanes will connect together
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+1. 

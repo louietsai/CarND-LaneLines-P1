@@ -67,4 +67,4 @@ One potential shortcoming would be related parameters for hough transformation. 
 
 ### 3. Suggest possible improvements to your pipeline
 
-1. 
+1. improve both step4 and step 5. maybe to some dynamic polygon decision according to current road condition.

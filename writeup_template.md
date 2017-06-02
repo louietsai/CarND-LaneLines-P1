@@ -24,7 +24,7 @@ The goals / steps of this project are the following:
 
 [image4]: ./ftest_images_out/line_solidWhiteCurve.jpg "Grayscale"
 
-[image5]: ./ftest_images_out/lfinal_solidWhiteCurve.jpg "Grayscale"
+[image5]: ./ftest_images_out/final_solidWhiteCurve.jpg "Grayscale"
 
 ---
 

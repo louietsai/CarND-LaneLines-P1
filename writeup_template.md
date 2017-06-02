@@ -18,6 +18,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./test_images_out/gray_solidWhiteCurve.jpg "Grayscale"
 
+[image2]: ./test_images_out/edges_solidWhiteCurve.jpg "Grayscale"
+
 ---
 
 ### Reflection
@@ -26,10 +28,14 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 6 steps. 
 1. I converted the images to grayscale, 
+
 ![alt text][image1]
 
 2. I blurred the image.
 3. I applied canny edge with low thresh:70 high thresh:100
+
+![alt text][image2]
+
 4. define a polygon for point of interest
 5. make a Hough transform with threshold : 10, min_line_length = 100, max_line_gap = 200
 6. apply line images from step 5 to original image

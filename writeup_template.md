@@ -63,8 +63,10 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 
 One potential shortcoming would be related parameters for hough transformation. sometimes the left and right lanes will connect together
+the other is that I don't have two solid line from the start of the road to the end of the road.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
 1. improve both step4 and step 5. maybe to some dynamic polygon decision according to current road condition.
+2. try on Extrapolation algorithm

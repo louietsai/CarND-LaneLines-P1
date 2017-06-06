@@ -13,9 +13,18 @@ The goals / steps of this project are the following:
 * Reflect on your work in a written report
 
 
+
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_out/gray_solidWhiteCurve.jpg "Grayscale"
+
+[image2]: ./test_images_out/edges_solidWhiteCurve.jpg "Grayscale"
+
+[image3]: ./test_images_out/med_solidWhiteCurve.jpg "Grayscale"
+
+[image4]: ./test_images_out/line_solidWhiteCurve.jpg "Grayscale"
+
+[image5]: ./test_images_out/final_solidWhiteCurve.jpg "Grayscale"
 
 ---
 
@@ -23,7 +32,25 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 6 steps. 
+1. I converted the images to grayscale, 
+
+![alt text][image1]
+
+2. I blurred the image.
+3. I applied canny edge with low thresh:70 high thresh:100
+
+![alt text][image2]
+
+4. define a polygon for point of interest
+
+![alt text][image3]
+
+5. make a Hough transform with threshold : 10, min_line_length = 100, max_line_gap = 200
+6. apply line images from step 5 to original image
+
+![alt text][image5]
+
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
 
@@ -35,13 +62,9 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming would be related parameters for hough transformation. sometimes the left and right lanes will connect together
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+1. improve both step4 and step 5. maybe to some dynamic polygon decision according to current road condition.
